@@ -1,0 +1,11 @@
+version: 2
+
+sources:
+  - name: fivetran_raw
+    description: Raw data from fivetran_database
+    database: fivetran_database
+    schema: sagex3_prod
+    tables:
+      - name: sorder
+      - name: sinvoiced
+      
